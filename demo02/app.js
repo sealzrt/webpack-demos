@@ -12,5 +12,15 @@
 // import {fetchUtils} from './utils';
 import * as fetchUtils from './utils/fetch-utils';
 
+let test = 'test';
+let instance = null;
+if (test) {
+  instance = require('./utils/tools');
+} else {
+  instance = require('./utils/message');
+}
+
+console.log('instance.getName', instance.getName());
+
 console.log('fetchUtils.request()');
 fetchUtils.request();
