@@ -8,8 +8,8 @@ const path = require("path");
  *    3. "useBuiltIns": "usage", "corejs": 3, 打包结果: 53.9kb, 对箭头函数进行转换, 并且添加了用到的垫片
  *    4. "useBuiltIns": "entry",  入口文件添加 import '@babel/polyfill', 打包结果: 451kb, 添加了所有的垫片
  *
- * 2. @babel/preset-env "usage" + 安装 @babel/polyfill, , 27.7kb
- * 3. @babel/preset-env "usage" + 安装 core-js, 27.7kb
+ * 2. @babel/preset-env "usage" + 安装 @babel/polyfill ,  打包结果: 27.7kb
+ * 3. @babel/preset-env "usage" + 安装 core-js@2,         打包结果: 27.7kb
  */
 
 module.exports = {
