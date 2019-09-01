@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"workspaces": [
+		"*"
+	],
+	"name": "webpack-demos",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:sealzrt/webpack-demos.git",
+	"author": "张瑞涛 <zhangruitao@mmears.com>",
+	"license": "MIT"
+}

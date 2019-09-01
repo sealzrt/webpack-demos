@@ -1,4 +1,5 @@
 {
+	"name": "ch02-babel-runtime",
 	"scripts": {
 		"build": "webpack"
 	},

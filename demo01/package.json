@@ -1,4 +1,5 @@
 {
+	"name": "demo01",
 	"scripts": {
 		"build": "webpack",
 		"dev": "webpack-dev-server"
